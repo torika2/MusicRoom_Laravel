@@ -1,0 +1,77 @@
+.post-talk{
+	margin: 0.5%;
+	/*width: 63%;*/
+	/*height: 464px;*/
+	background: white;
+}
+
+.post-talk .img_div{
+	background: grey;
+	height: 100%;
+	margin: 5px;
+}
+
+.post_div_child{
+ 	width: 70;
+}
+
+.post-talk .text_div{
+	background: grey;
+	/*height: 455px;*/
+	width: 100%;
+	margin: 5px;
+}
+
+.button_section .vote{
+	width: 70%;
+}
+
+.button_section .music_vote_count{
+	width: 30%;
+}
+
+.music_room{
+	position: absolute;
+	width: 95px;
+	height: 35px;
+	margin-top: 13px;
+	background:#19869a; 
+	color:white;
+	text-align: center;
+	padding: 5px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	z-index: 1;
+}
+
+.music_vote_count{
+	font-family: arial;
+}
+
+.post-talk .text_div p{
+	/*width: 70%;*/
+	font-size: 75%;
+	color: black;
+	opacity: 0.6;
+	padding-left: 7px;
+}
+.post-talk .text_div h4{
+	color:black;
+	/*text-align: left;*/
+	padding: 9px;
+}
+
+.post-talk .img_div img{
+	width: 200px;
+	z-index: -1;
+}
+
+.tickets{
+	width: 35.5%;
+	min-width: 35.5%;
+	max-width: 35.5%;
+	margin-top:3px;
+}
+
+.tickets:hover{
+	opacity: 0.8;
+}
